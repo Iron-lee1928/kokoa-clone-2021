@@ -1,0 +1,9 @@
+:root {
+  --yellow: #fae100;
+  /* 웹 기본 여백 공간감 설정 */
+  --horizontal-space: 25px;
+  /* 밑줄 Css */
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  /* 회색 폰트 컬러  */
+  --main-color: rgba(0, 0, 0, 0.5);
+}

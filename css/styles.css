@@ -1,0 +1,36 @@
+/* 이건폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+/*스타일 리셋 */
+@import "reset.css";
+
+/*함수 css */
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/alt-screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/point.css";
+@import "components/icon-row.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+/* 배경색 */
+@import "screens/body-color.css";
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+  /* 배경색 */
+  background-color: rgb(235, 218, 250);
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
