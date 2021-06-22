@@ -15,6 +15,19 @@
   margin-left: 25px;
 }
 
+@keyframes rotatecog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecog 1s linear infinite;
+}
+
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
